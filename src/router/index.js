@@ -7,6 +7,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import Home from './home'
 import Hello from './hello'
 
 Vue.use(Router)
@@ -14,17 +15,17 @@ Vue.use(Router)
 // 设置路由默认状态
 const arr = [{
         path: '/',
-        redirect: '/hello'
+        redirect: '/home'
     },
     {
         path: '/*',
-        redirect: '/hello'
+        redirect: '/home'
     }
 ];
 
 const router = new Router({
     mode: 'history',
-    routes: [...Hello, ...arr]
+    routes: [...Home, ...Hello, ...arr]
 })
 
 // router.beforeEach((to, from, next) => {

@@ -17,14 +17,18 @@ npm : 5.3.0
 
 **注:如果项目install有问题,可把对应环境配置成上面相关的环境在尝试**
 
+***启动mock服务器***
+```
+$ npm install -g json-server
+$ npm run server
+```
+
 **项目运行**
 ```
 $ npm install
 $ npm run dev
 $ npm run build
 ```
-
-
 
 ### .命名规范
 > 组件样式命名: 统一采用 ub 前缀 如: ub-header

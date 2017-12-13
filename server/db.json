@@ -1,0 +1,428 @@
+{
+  "user": [
+    {
+      "id": 10000,
+      "name": "一韬",
+      "age": 25,
+      "gender": "male"
+    },
+    {
+      "id": 10001
+    },
+    {
+      "id": 10002
+    },
+    {
+      "id": 10003
+    },
+    {
+      "id": 10004
+    },
+    {
+      "id": 10005
+    },
+    {
+      "id": 10006
+    },
+    {
+      "id": 10007
+    },
+    {
+      "id": 10008
+    },
+    {
+      "id": 10009
+    },
+    {
+      "id": 10010
+    },
+    {
+      "id": 10011
+    },
+    {
+      "id": 10012
+    },
+    {
+      "id": 10013
+    },
+    {
+      "id": 10014
+    },
+    {
+      "id": 10015
+    },
+    {
+      "id": 10016
+    }
+  ],
+  "book": [
+    {
+      "id": 10000,
+      "name": "JavaScript从入门到精通",
+      "price": 9990,
+      "owner_id": 10000
+    },
+    {
+      "id": 10001,
+      "name": "Java从入门到放弃",
+      "price": 1990,
+      "owner_id": 10001
+    }
+  ],
+  "brdname": {
+    "errcode": "200",
+    "errMsg": "ok",
+    "data": [
+      {
+        "id": 1,
+        "brdid": 2,
+        "rank": 1,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "华为",
+        "realimage": "http://r.youjiji.net/commons/all/img/brand/huawei.png",
+        "recycle_count": 35084,
+        "recycle_amount": "4197352.00"
+      },
+      {
+        "id": 2,
+        "brdid": 8,
+        "rank": 2,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "小米",
+        "realimage": "http://r.youjiji.net/commons/all/img/brand/mi.png",
+        "recycle_count": 42333,
+        "recycle_amount": "2369214.00"
+      },
+      {
+        "id": 3,
+        "brdid": 9,
+        "rank": 3,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "苹果",
+        "realimage": "http://r.youjiji.net/commons/all/img/brand/apple.png",
+        "recycle_count": 49504,
+        "recycle_amount": "43686493.00"
+      },
+      {
+        "id": 1,
+        "brdid": 4,
+        "rank": 1,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "华为",
+        "realimage": "http://r.youjiji.net/commons/all/img/brand/huawei.png",
+        "recycle_count": 35084,
+        "recycle_amount": "4197352.00"
+      },
+      {
+        "id": 2,
+        "brdid": 5,
+        "rank": 2,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "小米",
+        "realimage": "http://r.youjiji.net/commons/all/img/brand/mi.png",
+        "recycle_count": 42333,
+        "recycle_amount": "2369214.00"
+      },
+      {
+        "id": 3,
+        "brdid": 6,
+        "rank": 3,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "苹果",
+        "realimage": "http://r.youjiji.net/commons/all/img/brand/apple.png",
+        "recycle_count": 49504,
+        "recycle_amount": "43686493.00"
+      }
+    ]
+  },
+  "mdlname": {
+    "errcode": 200,
+    "errmsg": "ok",
+    "data": [
+      {
+        "id": 1,
+        "brdid": 2,
+        "mdlid": 2206,
+        "brand_rank": 1,
+        "model_rank": 1,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "华为",
+        "mdlname": "vie-al10",
+        "amount": "1550.00",
+        "salesname": "P9 Plus全网通",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/huawei/huawei_p9.png",
+        "recycle_count": 1160,
+        "price_gap": 180
+      },
+      {
+        "id": 2,
+        "brdid": 2,
+        "mdlid": 2262,
+        "brand_rank": 1,
+        "model_rank": 2,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "华为",
+        "mdlname": "knt-al20",
+        "amount": "1180.00",
+        "salesname": "荣耀V8全网通高配版",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/huawei/huawei_v8.png",
+        "recycle_count": 549,
+        "price_gap": 130
+      },
+      {
+        "id": 3,
+        "brdid": 2,
+        "mdlid": 2327,
+        "brand_rank": 1,
+        "model_rank": 3,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "华为",
+        "mdlname": "frd-al00",
+        "amount": "1000.00",
+        "salesname": "荣耀8 全网通",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/huawei/huawei_frd_al00.png",
+        "recycle_count": 580,
+        "price_gap": 110
+      },
+      {
+        "id": 4,
+        "brdid": 2,
+        "mdlid": 2093,
+        "brand_rank": 1,
+        "model_rank": 4,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "华为",
+        "mdlname": "huaweinxt-al10",
+        "amount": "1100.00",
+        "salesname": "Mate 8全网通",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/huawei/huawei_mate8.png",
+        "recycle_count": 973,
+        "price_gap": 130
+      },
+      {
+        "id": 5,
+        "brdid": 8,
+        "mdlid": 2109,
+        "brand_rank": 2,
+        "model_rank": 1,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "小米",
+        "mdlname": "mi5",
+        "amount": "980.00",
+        "salesname": "小米5",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/mi/mi_xiaomi_m5.png",
+        "recycle_count": 5270,
+        "price_gap": 110
+      },
+      {
+        "id": 6,
+        "brdid": 8,
+        "mdlid": 2322,
+        "brand_rank": 2,
+        "model_rank": 2,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "小米",
+        "mdlname": "minotelte",
+        "amount": "280.00",
+        "salesname": "小米NOTE双网通",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/mi/mi_xiaominote.png",
+        "recycle_count": 1307,
+        "price_gap": 40
+      },
+      {
+        "id": 7,
+        "brdid": 8,
+        "mdlid": 2450,
+        "brand_rank": 2,
+        "model_rank": 3,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "小米",
+        "mdlname": "mix",
+        "amount": "1600.00",
+        "salesname": "小米MIX",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/mi/mi_mimix.png",
+        "recycle_count": 514,
+        "price_gap": 180
+      },
+      {
+        "id": 8,
+        "brdid": 8,
+        "mdlid": 2691,
+        "brand_rank": 2,
+        "model_rank": 4,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "小米",
+        "mdlname": "redminote4x",
+        "amount": "550.00",
+        "salesname": "红米Note 4X",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/mi/mi_redminote4.png",
+        "recycle_count": 640,
+        "price_gap": 70
+      },
+      {
+        "id": 9,
+        "brdid": 9,
+        "mdlid": 2415,
+        "brand_rank": 3,
+        "model_rank": 1,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "苹果",
+        "mdlname": "iphone9,1",
+        "amount": "3650.00",
+        "salesname": "iPhone 7",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/apple/apple_iphone_7.png",
+        "recycle_count": 4236,
+        "price_gap": 410
+      },
+      {
+        "id": 10,
+        "brdid": 9,
+        "mdlid": 2417,
+        "brand_rank": 3,
+        "model_rank": 2,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "苹果",
+        "mdlname": "iphone9,2",
+        "amount": "4250.00",
+        "salesname": "iPhone 7 PLUS",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/apple/apple_iphone_7.png",
+        "recycle_count": 3296,
+        "price_gap": 470
+      },
+      {
+        "id": 11,
+        "brdid": 9,
+        "mdlid": 1751,
+        "brand_rank": 3,
+        "model_rank": 3,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "苹果",
+        "mdlname": "iphone8,2",
+        "amount": "2700.00",
+        "salesname": "iPhone 6S Plus",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/apple/apple_iphone_6splus.png",
+        "recycle_count": 4234,
+        "price_gap": 300
+      },
+      {
+        "id": 12,
+        "brdid": 9,
+        "mdlid": 559,
+        "brand_rank": 3,
+        "model_rank": 4,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "苹果",
+        "mdlname": "iphone7,1",
+        "amount": "1800.00",
+        "salesname": "iPhone 6 PLUS",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/apple/apple_iphone_6plus.png",
+        "recycle_count": 7152,
+        "price_gap": 200
+      },
+      {
+        "id": 13,
+        "brdid": 1,
+        "mdlid": 2106,
+        "brand_rank": 4,
+        "model_rank": 1,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "三星",
+        "mdlname": "sm-g9300",
+        "amount": "1200.00",
+        "salesname": "GALAXY S7全网通",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/samsung/samsung_g9300.png",
+        "recycle_count": 860,
+        "price_gap": 140
+      },
+      {
+        "id": 14,
+        "brdid": 1,
+        "mdlid": 1810,
+        "brand_rank": 4,
+        "model_rank": 2,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "三星",
+        "mdlname": "sm-g5500",
+        "amount": "100.00",
+        "salesname": "GALAXY On5双4G",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/samsung/samsung_on5.png",
+        "recycle_count": 403,
+        "price_gap": 20
+      },
+      {
+        "id": 15,
+        "brdid": 1,
+        "mdlid": 1069,
+        "brand_rank": 4,
+        "model_rank": 3,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "三星",
+        "mdlname": "sm-a8000",
+        "amount": "600.00",
+        "salesname": "GALAXY A8全网通",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/samsung/samsung_a8000.png",
+        "recycle_count": 1256,
+        "price_gap": 70
+      },
+      {
+        "id": 16,
+        "brdid": 1,
+        "mdlid": 5,
+        "brand_rank": 4,
+        "model_rank": 4,
+        "enabled": 1,
+        "updatetime": 1504776301,
+        "dateline": 1504776301,
+        "brdname": "三星",
+        "mdlname": "sm-a7000",
+        "amount": "500.00",
+        "salesname": "GALAXY A7双4G",
+        "realimage": "http://r.youjiji.net/commons/all/img/big/samsung/samsung_a7000.png",
+        "recycle_count": 837,
+        "price_gap": 60
+      }
+    ]
+  }
+}
