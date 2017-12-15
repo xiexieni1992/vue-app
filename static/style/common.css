@@ -1,0 +1,314 @@
+*,
+:after,
+:before {
+    -webkit-tap-highlight-color: transparent
+}
+
+blockquote,
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset,
+img {
+    border: 0
+}
+
+li {
+    list-style: none
+}
+
+q:after,
+q:before {
+    content: ""
+}
+
+input:password {
+    ime-mode: disabled
+}
+
+:focus {
+    outline: 0
+}
+
+body,
+html {
+    min-height: 100%
+}
+
+body {
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #f5f5f9
+}
+
+a,
+img {
+    -webkit-touch-callout: none
+}
+
+body.ub-bg-white {
+    background-color: #fff
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    font-fubily: "Helvetica Neue", Helvetica, STHeiTi, sans-serif
+}
+
+input {
+    line-height: normal
+}
+
+a {
+    text-decoration: none
+}
+
+.fn-clear:after {
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+
+.fn-hide {
+    display: none
+}
+
+.fn-left {
+    float: left
+}
+
+.fn-right {
+    float: right
+}
+
+.ub-fixed {
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99
+}
+
+.ub-fixed-bottom {
+    top: inherit;
+    bottom: 0
+}
+
+.user-select {
+    -webkit-user-select: auto;
+    user-select: auto
+}
+
+.ub-flexbox {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+}
+
+.ub-flexbox-a {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.ub-flexbox-v {
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.ub-flexbox .ub-flexbox-item,
+.ub-flexbox-v .ub-flexbox-item {
+    -webkit-box-sizing: border-box;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+}
+
+.ub-flexbox .ub-flexbox-item:first-child,
+.ub-flexbox-v .ub-flexbox-item:first-child {
+    margin-left: 0
+}
+
+
+/* 对齐 */
+
+.ub-ft-left {
+    text-align: left
+}
+
+.ub-ft-center {
+    text-align: center
+}
+
+.ub-ft-right {
+    text-align: right
+}
+
+.ub-ft-justify {
+    text-align: justify
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+
+/* 字号 */
+
+.ub-ft24 {
+    font-size: 0.24rem;
+}
+
+.ub-ft20 {
+    font-size: 0.2rem;
+}
+
+.ub-ft18 {
+    font-size: 0.18rem;
+}
+
+.ub-ft17 {
+    font-size: 0.17rem;
+}
+
+.ub-ft16 {
+    font-size: 0.16rem;
+}
+
+.ub-ft14 {
+    font-size: 0.14rem;
+}
+
+.ub-ft12 {
+    font-size: 0.12rem;
+}
+
+
+/* 字体颜色 */
+
+.ub-c-fff {
+    color: #fff
+}
+
+.ub-c-000 {
+    color: #000
+}
+
+.ub-c-333 {
+    color: #333
+}
+
+.ub-c-666 {
+    color: #666
+}
+
+.ub-c-999 {
+    color: #999
+}
+
+.ub-c-dedede {
+    color: #dedede
+}
+
+.ub-c-blue {
+    color: #108ee9
+}
+
+.ub-c-f70 {
+    color: #ff7700
+}
+
+.ub-c-f90 {
+    color: #ff9900
+}
+
+.ub-c-f40 {
+    color: #ff4400
+}
+
+
+/* margin */
+
+.ub-mg-lr5 {
+    margin: 0 0.05rem;
+}
+
+.ub-mg-lr10 {
+    margin: 0 0.1rem;
+}
+
+.ub-mg-lr15 {
+    margin: 0 0.15rem;
+}
+
+.ub-mg-lr20 {
+    margin: 0 0.20rem;
+}
+
+.ub-mg-t5 {
+    margin-top: 0.05rem;
+}
+
+.ub-mg-t10 {
+    margin-top: 0.1rem;
+}
+
+.ub-mg-t15 {
+    margin-top: 0.15rem;
+}
+
+.ub-mg-t20 {
+    margin-top: 0.20rem;
+}
+
+.ub-mg-b5 {
+    margin-bottom: 0.05rem;
+}
+
+.ub-mg-b10 {
+    margin-bottom: 0.1rem;
+}
+
+.ub-mg-b15 {
+    margin-bottom: 0.15rem;
+}
+
+.ub-mg-b20 {
+    margin-bottom: 0.20rem;
+}
