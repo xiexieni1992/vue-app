@@ -10,11 +10,11 @@
 > * 页面样式命名： class 统一采用`-`命名，id 统一采用`_`命名,样式命名不准出现驼峰命名方式 如`.home-title  #home_title`
 
 ### 页面结构
-`
+```
     <template>
         <div id='page-home' v-title data-title = '首页'>
             <div>……</div> 
         </div>
     </template>    
-`
+```
 
