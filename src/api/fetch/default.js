@@ -1,9 +1,9 @@
-import axios from 'axios';
-import Qs from 'qs'; //这是qs插件 npm安装即可这里引用
+import axios from 'axios'
+import Qs from 'qs' //这是qs插件 npm安装即可这里引用
+const API_ROOT = process.env.API_ROOT
 
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8';
-// axios.defaults.headers.common['Authorization'] = 'Basic YWRtaW46YWRtaW4=';
-// axios.defaults.baseURL = baseUrl;
+axios.defaults.baseURL = API_ROOT;
 // axios.defaults.withCredentials = true;
 
 // 创建axios实例

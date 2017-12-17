@@ -78,17 +78,6 @@ body.ub-bg-white {
     background-color: #fff
 }
 
-body,
-button,
-input,
-select,
-textarea {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #000;
-    font-fubily: "Helvetica Neue", Helvetica, STHeiTi, sans-serif
-}
-
 input {
     line-height: normal
 }
@@ -117,7 +106,7 @@ a {
     float: right
 }
 
-.ub-fixed {
+.fixed {
     position: fixed!important;
     top: 0;
     left: 0;
@@ -125,7 +114,7 @@ a {
     z-index: 99
 }
 
-.ub-fixed-bottom {
+.fixed-bottom {
     top: inherit;
     bottom: 0
 }
@@ -135,50 +124,50 @@ a {
     user-select: auto
 }
 
-.ub-flexbox {
+.flexbox {
     display: flex;
     display: -webkit-box;
     display: -webkit-flex;
 }
 
-.ub-flexbox-a {
+.flexbox-a {
     justify-content: center;
     -webkit-justify-content: center;
 }
 
-.ub-flexbox-v {
+.flexbox-v {
     align-items: center;
     -webkit-align-items: center;
 }
 
-.ub-flexbox .ub-flexbox-item,
-.ub-flexbox-v .ub-flexbox-item {
+.flexbox .flexbox-item,
+.flexbox-v .flexbox-item {
     -webkit-box-sizing: border-box;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
 }
 
-.ub-flexbox .ub-flexbox-item:first-child,
-.ub-flexbox-v .ub-flexbox-item:first-child {
+.flexbox .flexbox-item:first-child,
+.flexbox-v .flexbox-item:first-child {
     margin-left: 0
 }
 
 
 /* 对齐 */
 
-.ub-ft-left {
+.ta-left {
     text-align: left
 }
 
-.ub-ft-center {
+.ta-center {
     text-align: center
 }
 
-.ub-ft-right {
+.ta-right {
     text-align: right
 }
 
-.ub-ft-justify {
+.ta-justify {
     text-align: justify
 }
 
@@ -191,124 +180,140 @@ a {
 
 /* 字号 */
 
-.ub-ft24 {
+.ft24 {
     font-size: 0.24rem;
 }
 
-.ub-ft20 {
+.ft20 {
     font-size: 0.2rem;
 }
 
-.ub-ft18 {
+.ft18 {
     font-size: 0.18rem;
 }
 
-.ub-ft17 {
+.ft17 {
     font-size: 0.17rem;
 }
 
-.ub-ft16 {
+.ft16 {
     font-size: 0.16rem;
 }
 
-.ub-ft14 {
+.ft14 {
     font-size: 0.14rem;
 }
 
-.ub-ft12 {
+.ft12 {
     font-size: 0.12rem;
 }
 
 
 /* 字体颜色 */
 
-.ub-c-fff {
+.c-fff {
     color: #fff
 }
 
-.ub-c-000 {
+.c-000 {
     color: #000
 }
 
-.ub-c-333 {
+.c-333 {
     color: #333
 }
 
-.ub-c-666 {
+.c-666 {
     color: #666
 }
 
-.ub-c-999 {
+.c-999 {
     color: #999
 }
 
-.ub-c-dedede {
+.c-dedede {
     color: #dedede
 }
 
-.ub-c-blue {
+.c-blue {
     color: #108ee9
 }
 
-.ub-c-f70 {
+.c-f70 {
     color: #ff7700
 }
 
-.ub-c-f90 {
+.c-f90 {
     color: #ff9900
 }
 
-.ub-c-f40 {
+.c-f40 {
     color: #ff4400
 }
 
 
 /* margin */
 
-.ub-mg-lr5 {
+.mg-lr5 {
     margin: 0 0.05rem;
 }
 
-.ub-mg-lr10 {
+.mg-lr10 {
     margin: 0 0.1rem;
 }
 
-.ub-mg-lr15 {
+.mg-lr15 {
     margin: 0 0.15rem;
 }
 
-.ub-mg-lr20 {
+.mg-lr20 {
     margin: 0 0.20rem;
 }
 
-.ub-mg-t5 {
+.mg-t5 {
     margin-top: 0.05rem;
 }
 
-.ub-mg-t10 {
+.mg-t10 {
     margin-top: 0.1rem;
 }
 
-.ub-mg-t15 {
+.mg-t15 {
     margin-top: 0.15rem;
 }
 
-.ub-mg-t20 {
+.mg-t20 {
     margin-top: 0.20rem;
 }
 
-.ub-mg-b5 {
+.mg-t25 {
+    margin-top: 0.25rem;
+}
+
+.mg-t30 {
+    margin-top: 0.25rem;
+}
+
+.mg-b5 {
     margin-bottom: 0.05rem;
 }
 
-.ub-mg-b10 {
+.mg-b10 {
     margin-bottom: 0.1rem;
 }
 
-.ub-mg-b15 {
+.mg-b15 {
     margin-bottom: 0.15rem;
 }
 
-.ub-mg-b20 {
+.mg-b20 {
     margin-bottom: 0.20rem;
+}
+
+.mg-b25 {
+    margin-bottom: 0.20rem;
+}
+
+.mg-b30 {
+    margin-bottom: 0.3rem;
 }

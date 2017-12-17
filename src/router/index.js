@@ -8,7 +8,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Home from './home'
-import Hello from './hello'
+import Todo from './default'
 
 Vue.use(Router)
 
@@ -25,7 +25,7 @@ const arr = [{
 
 const router = new Router({
     mode: 'history',
-    routes: [...Home, ...Hello, ...arr]
+    routes: [...Home, ...Todo, ...arr]
 })
 
 // router.beforeEach((to, from, next) => {

@@ -4,7 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>vue项目构建</title>
+    <link rel="stylesheet" href="./static/style/common.css">
+    <title></title>
+    <script>
+        var docEl = document.documentElement;
+        docEl.style.fontSize = 100 / 375 * docEl.clientWidth + 'px';
+        window.addEventListener('resize', function() {
+            docEl.style.fontSize = 100 / 375 * docEl.clientWidth + 'px';
+        });
+    </script>
 </head>
 
 <body>

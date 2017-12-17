@@ -1,9 +1,8 @@
-const Home = r => require.ensure([], () => r(require('@views/home/index.vue')), 'home');
+const Home = r => require.ensure([], () => r(require('@/pages/home/index.vue')), 'home');
 const arr = [{
     path: '/home',
-    name: 'home.index',
+    name: 'page_home',
     component: Home,
-    // If the user needs to be authenticated to view this page
     meta: {
         auth: false,
     },

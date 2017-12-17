@@ -1,14 +1,16 @@
 <template>
-    <div class="page">
-        <div>
-            {{ pageParam }}
-            <mt-button @click="handleButtonClick">Click Me</mt-button>
+    <div id = "page_home" v-title data-title = "Todo首页">
+        <div class = "page">
+            <div class="mg-b20">
+                {{ pageParam }}
+                <mt-button @click="handleButtonClick">vue全家桶链接</mt-button>
+            </div>
         </div>
     </div>
 </template>
     
 <script>
-    import { homeBrandList } from '@api/homeApi'
+    import { homeBrandList } from '@api/home'
 
     export default {
         data () {
@@ -22,17 +24,19 @@
         },
 
         methods:{
+
             init () {
-                //  console.log(res);
                 homeBrandList().then( (res) => {
                     console.log(res);
                 }).catch( (res) => {
 
                 })
             },
+
             handleButtonClick () {
-                this.$toast('Hello world!');
+                this.$router.push( { 'name':'page_todo' } );
             }
+
         }
     }
     
