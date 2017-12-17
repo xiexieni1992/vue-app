@@ -2,6 +2,7 @@
     <div class="page">
         <div>
             {{ pageParam }}
+            <mt-button @click="handleButtonClick">Click Me</mt-button>
         </div>
     </div>
 </template>
@@ -29,6 +30,9 @@
 
                 })
             },
+            handleButtonClick () {
+                this.$toast('Hello world!');
+            }
         }
     }
     
